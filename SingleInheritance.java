@@ -8,6 +8,7 @@ public class SingleInheritance {
 	
 	int l = 20;
 	int h = 40;
+	int w = 30;
 	
 	
 	
@@ -24,7 +25,12 @@ class Area extends SingleInheritance{
 	
 	int areaTriangle = l*h/2;
 	
+	
 	System.out.println("Area is "+ areaTriangle);
+
+	System.out.println("The Area of Rectangle");
+	int areaRectangle= w*l;
+	System.out.println("The Area of Rectangle is: "+areaRectangle);
 	
 	
 	
